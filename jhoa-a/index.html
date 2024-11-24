@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de JavaScript</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Ejercicios con JavaScript</h1>
+    <div class="exercise-buttons">
+      <button class="exercise-btn" data-exercise="1">Ejercicio 1</button>
+      <button class="exercise-btn" data-exercise="2">Ejercicio 2</button>
+      <button class="exercise-btn" data-exercise="3">Ejercicio 3</button>
+      <button class="exercise-btn" data-exercise="4">Ejercicio 4</button>
+      <button class="exercise-btn" data-exercise="5">Ejercicio 5</button>
+    </div>
+
+    <div class="exercise-container" id="exercise1-container" style="display: none;">
+      <h2>Ejercicio 1</h2>
+      <form id="exercise1-form">
+        <label for="n">Ingresa el valor de n:</label>
+        <input type="number" id="n" name="n" required>
+        <button type="submit">Calcular</button>
+      </form>
+      <div id="exercise1-result"></div>
+    </div>
+
+    <div class="exercise-container" id="exercise2-container" style="display: none;">
+      <h2>Ejercicio 2</h2>
+      <form id="exercise2-form">
+        <label for="exercise2-input">Ingresa el Valor de n:</label>
+        <input type="text" id="exercise2-input" name="exercise2-input" required>
+        <button type="submit">Calcular</button>
+      </form>
+      <div id="exercise2-result"></div>
+    </div>
+
+    <div class="exercise-container" id="exercise3-container" style="display: none;">
+      <h2>Ejercicio 3</h2>
+      <form id="exercise3-form">
+        <label for="exercise3-input">Ingresa el Valor n:</label>
+        <input type="text" id="exercise3-input" name="exercise3-input" required>
+        <button type="submit">Calcular</button>
+      </form>
+      <div id="exercise3-result"></div>
+    </div>
+
+    <div class="exercise-container" id="exercise4-container" style="display: none;">
+      <h2>Ejercicio 4</h2>
+      <form id="exercise4-form">
+        <label for="exercise4-input">Ingresa el Valor n:</label>
+        <input type="text" id="exercise4-input" name="exercise4-input" required>
+        <button type="submit">Calcular</button>
+      </form>
+      <div id="exercise4-result"></div>
+    </div>
+
+    <div class="exercise-container" id="exercise5-container" style="display: none;">
+      <h2>Ejercicio 5</h2>
+      <form id="exercise5-form">
+        <label for="exercise5-input">Ingresa un valor de Sen:</label>
+        <input type="text" id="exercise5-input" name="exercise5-input" required>
+        <button type="submit">Calcular</button>
+      </form>
+      <div id="exercise5-result"></div>
+    </div>
+
+
+  </div>
+  <script src="js/scrip.js"></script>
+</body>
+</html>
